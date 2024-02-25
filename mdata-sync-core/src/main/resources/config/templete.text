@@ -1,0 +1,32 @@
+{
+  "destination" : "11111",
+  "description": "",//描述
+  "modelList" : [
+    {
+      "dataSource" : "ots",
+      "tableName" : "aaa",
+      "fieldList" : [
+        {
+          "primaryKey" : true,
+          "columnName" : "id",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "",
+          "outerIndexName" : "",
+          "translation" : ""
+        },
+        {
+          "primaryKey" : false,
+          "columnName" : "name",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "",
+          "outerIndexName" : "",
+          "translation" : ""
+        },
+
+      ]
+    }
+  ],
+  "options" : 1,
+  "returnStatement" : "",
+  "relationList" : [""]
+}

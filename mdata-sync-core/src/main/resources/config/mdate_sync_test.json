@@ -1,0 +1,51 @@
+{
+  "destination" : "mdate_sync_test",
+  "description": "测试表",
+  "modelList" : [
+    {
+      "dataSource" : "ots",
+      "tableName" : "mdate_sync_test",
+      "fieldList" : [
+        {
+          "primaryKey" : true,
+          "columnName" : "id",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "bigint",
+          "outerIndexName" : "id"
+        },
+        {
+          "primaryKey" : true,
+          "columnName" : "id",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "string",
+          "outerIndexName" : "_id"
+        },
+        {
+          "columnName" : "username",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "string",
+          "outerIndexName" : "username"
+        },
+        {
+          "columnName" : "password",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "string",
+          "outerIndexName" : "password"
+        },
+        {
+          "columnName" : "createTime",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "date",
+          "outerIndexName" : "createTime"
+        },
+        {
+          "columnName" : "updateTime",
+          "outerIndexed" : true,
+          "outerIndexDataType" : "date",
+          "outerIndexName" : "updateTime"
+        }
+      ]
+    }
+  ],
+  "options" : 1
+}
